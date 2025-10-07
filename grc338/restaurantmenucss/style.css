@@ -7,59 +7,60 @@ img {
 }
 
 body {
-	background-color: rgb(250, 250, 228); /* Not totally white. */
+	background-color: rgb(250, 250, 250); /* Not totally white. */
 	color: rgb(10,10,10);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
 
 h1 {
-	background-color: rgb(142, 150, 247));
-	color: rgb(10,10,10); /* Same as body background. */
-	font-size: 1em;
-	padding: 1em 2em 1em; /* You want three values. */
+	background-color: rgb(153, 153, 166);
+    color: rgb(250, 250, 250); /* Same as body background. */
+	font-size: 2em;
+	padding: 1em 0.5em 0.5em; /* You want three values. */
 	font-weight: bold;
-	text-transform: _______;
+	text-transform: uppercase;
 }
 
 
 h2 {
-	background-color: _______;
-	color: _______;
-	font-size: _______;
-	padding: _______;
-	font-family: _______;
-	font-weight: _______;
+	background-color: rgb(153, 153, 166);
+	color: rgb(250, 250, 250);
+	font-size: 2em;
+	padding: 0.5em 0.5em 0.5em;
+	font-family: serif;
+	font-weight: bold;
 }
 
 h3 {
-	margin: ____ ____ ____; /*Three values again. You got the idea.*/
-	padding-top: _______;
-	font-size: _______;
-	color: _______;
-	font-weight: _______;
-	text-transform: _______;
-	letter-spacing: ____; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: ____ ____ ____;
+	margin: 2.5em 0.8em 1em; /*Three values again. You got the idea.*/
+	padding-top: 0.5em;
+	font-size: 1.3em;
+	color: rgb(159, 50, 60);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: 2px solid rgb(159, 50, 60);
 }
 
 h4 {
-	font-weight: _______;
+	font-weight: bold;
 }
 
 p.description {
-	font-style: _______;
+	font-style: italic;
 }
 
 p.price {
-	color: _______;
+	color: rgb(159, 50, 60);
 }
 
 ul {
-	margin: ____ ____ ____;
+	margin: 1em 1em 1em;
+    padding: 0;
 }
 
 li { 
-	margin: ____ ____;
-	list-style-type: ____;
+	margin: 1em 0em;
+	list-style-type: none;
 }
